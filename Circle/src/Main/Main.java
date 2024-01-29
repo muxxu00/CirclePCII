@@ -18,7 +18,7 @@ public class Main {
         Position POS = new Position();
         Parcours parc = new Parcours(POS);
         Affichage b = new Affichage(POS, parc);
-        Redessine a = new Redessine(b);
+        Redessine a = new Redessine(b, parc);
         Descendre c = new Descendre(POS);
         Avance d = new Avance(POS, parc);
 

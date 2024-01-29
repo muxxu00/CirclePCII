@@ -16,6 +16,7 @@ public class Avance extends Thread {
             POS.avance();
             parc.gen_pts();
             parc.supp_pts();
+            System.out.println(parc.perdu());
             try {
                 Thread.sleep(DELAY);
             } catch (InterruptedException e) {
@@ -24,5 +25,7 @@ public class Avance extends Thread {
         }
     }
 
+
 }
+
 

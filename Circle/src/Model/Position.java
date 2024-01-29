@@ -11,6 +11,8 @@ public class Position {
     private int Hauteur_max = 200 ;
     private int BEFORE = 200;
     private int AFTER = 200;
+    private final int La = 30;
+    private final int Ha = 100;
 
     public int getHauteur(){
         return hauteur;
@@ -46,4 +48,12 @@ public class Position {
     void avance(){
         avancement += 3;
     }
+
+    public int getHa(){return Ha;}
+
+    public int getLa(){return La;}
+
+    public int getHauteur_max(){return Hauteur_max;}
+
+    public int getHauteur_min(){return Hauteur_min;}
 }
